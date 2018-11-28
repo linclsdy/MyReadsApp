@@ -1,8 +1,7 @@
 # MyReads Project
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
-
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
+This is a bookshelf app which allows users to select and categorize the books you have read, or reading or want to read.
+The project emphasizes using React to build the application and provides an API server and client library that you will use to persist information as you interact with the application.
 
 ## How to Run
 
@@ -17,15 +16,15 @@ To get started developing right away:
 ```bash
 ├── CONTRIBUTING.md
 ├── README.md - This file.
-├── SEARCH_TERMS.md # The whitelisted short collection of available search terms for you to use with your app.
+├── SEARCH_TERMS.md # The whitelisted short collection of available search terms to search.
 ├── package.json
 ├── public
-│   ├── favicon.ico # React Icon, You may change if you wish.
-│   └── index.html # DO NOT MODIFY
+│   ├── favicon.ico # React Icon
+│   └── index.html 
 ├── src
-│   ├── App.css # Styles for your app. Feel free to customize this as you desire.
-│   ├── App.js # This is the root of your app. Contains static HTML right now.
-│   ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
+│   ├── App.css 
+│   ├── App.js # This is the root of the app. 
+│   ├── App.test.js # Used for testing.
 │   ├── components
 │   │   ├── Book.js # Book Component
 │   │   ├── BookShelf.js # BookShelf Component to contain Book
@@ -35,8 +34,8 @@ To get started developing right away:
 │   │   ├── add.svg
 │   │   ├── arrow-back.svg
 │   │   └── arrow-drop-down.svg
-│   ├── index.css # Global styles. You probably won't need to change anything here.
-│   ├── index.js # You should not need to modify this file. It is used for DOM rendering only.
+│   ├── index.css # Global styles. 
+│   ├── index.js # It is used for DOM rendering only.
 │   └── utils
 │       └── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
 └── yarn.lock
