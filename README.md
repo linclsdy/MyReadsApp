@@ -8,8 +8,10 @@ Of course, you are free to start this project from scratch if you wish! Just be 
 
 To get started developing right away:
 
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+1. [Download](https://github.com/linclsdy/MyReadsApp/archive/master.zip) or [Clone](https://github.com/linclsdy/MyReadsApp.git) the Repository.
+2. Install all project dependencies with `npm install`
+3. Start the development server with `npm start`
+4. Then, the app can be seen at: `localhost:3000` 
 
 ## What You're Getting
 ```bash
