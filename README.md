@@ -1,6 +1,6 @@
 # MyReads App Project
 
-This is a bookshelf app in which a part of project is created by the Udacity Front-End Developer Nanodegree and API server is provided. In this project, it aims to use React to build the application. Users are allowed to select and categorize the books into Currently Reading, Want to Read or Read. 
+This is a bookshelf app in which a part of project including API server is provided by the Udacity Front-End Developer Nanodegree. In this project, it aims to use React to build the application. Users are allowed to select and categorize the books into Currently Reading, Want to Read or Read. 
 
 
 ## How to Run
