@@ -29,7 +29,7 @@ To simplify your development process, we've provided a backend server for you to
 * shelf: `<String>` contains one of ["wantToRead", "currentlyReading", "read", "none"]  
 * Returns a Promise which resolves to a JSON object containing the response data of the POST request
 
-### `search(query, maxResults)`
+# `search(query, maxResults)`
 * query: `<String>`
 * maxResults: `<Integer>` It is because of nature of the backend server, search results are capped at 20 book objects.
 * Returns a Promise which resolves to a JSON object containing a collection of book objects.
