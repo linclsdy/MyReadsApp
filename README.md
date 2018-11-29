@@ -20,16 +20,16 @@ To simplify your development process, we've provided a backend server for you to
 * [`search`](#search)
 
 
-### `getAll()`
+### `getAll`
 * Returns a Promise which resolves to a JSON object containing a collection of book objects.
 * This collection represents the books currently in the bookshelves in your app.
 
-### `update(book, shelf)`
+### `update`
 * book: `<Object>` containing at minimum an `id` attribute
 * shelf: `<String>` contains one of ["wantToRead", "currentlyReading", "read", "none"]  
 * Returns a Promise which resolves to a JSON object containing the response data of the POST request
 
-### `search(query, maxResults)`
+### `search`
 * query: `<String>`
 * maxResults: `<Integer>` It is because of nature of the backend server, search results are capped at 20 book objects.
 * Returns a Promise which resolves to a JSON object containing a collection of book objects.
