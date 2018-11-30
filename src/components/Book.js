@@ -2,7 +2,7 @@ import React from 'react'
 
 // Book class to create individual Book component
 
-class Book extends React.Component {
+class Book extends React.PureComponent {
 	state = {
 	}
 
@@ -10,9 +10,8 @@ class Book extends React.Component {
 
 		const { book, currentShelf, onChangeShelf } = this.props
 
-		let onSelectChange = (event) => { // On Select change, trigger onChangeShelf function
-			onChangeShelf(book, event.target.value)
-		}
+		let onSelectChange = event => onChangeShelf(this.props.book, event.target.value)
+
 		let thumbnail
 		if (book.imageLinks) { // Check thumnail if undefinied, showing dummy thumbnail
 			thumbnail = book.imageLinks.thumbnail
