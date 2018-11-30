@@ -29,7 +29,7 @@ class Book extends React.PureComponent {
 							backgroundImage: `url(${thumbnail})` 
 						}}></div>
 						<div className='book-shelf-changer'>
-							<select onChange={onSelectChange} value={currentShelf}>
+							<select onChange={onSelectChange} defaultValue={currentShelf}>
 								<option value='move' disabled>Move to...</option>
 								<option value='currentlyReading'>Currently Reading</option>
 								<option value='wantToRead'>Want to Read</option>
